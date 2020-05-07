@@ -1,0 +1,9 @@
+<robot name="snake5" moduleType="M3R" refDistId="3" position="0, 0, 0" rotation="0,0,0">
+	<modules>
+		<module id="1" />
+		<module id="2" />
+	</modules>
+	<connections>
+		<connection from="1" to="2" surfaceFrom="top" surfaceTo="bottom"/>
+	</connections>
+</robot>

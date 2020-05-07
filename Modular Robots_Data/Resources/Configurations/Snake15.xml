@@ -1,0 +1,43 @@
+<robot name="snake15" moduleType="M3R" position="0, 0, 0" rotation="0,0,90">
+  <modules>
+    <module id="1" />
+    <module id="2" />
+    <module id="3" />
+    <module id="4" />
+    <module id="5" />
+    <module id="6" />
+    <module id="7" />
+    <module id="8" />
+    <module id="9" />
+    <module id="10" />
+    <module id="11" />
+    <module id="12" />
+    <module id="13" />
+    <module id="14" />
+    <module id="15" />
+    <module id="16" />
+    <module id="17" />
+    <module id="18" />
+    <module id="19" />
+  </modules>
+  <connections>
+    <connection from="1" to="2" surfaceFrom="top" surfaceTo="bottom" tilt="90"/>
+    <connection from="2" to="3" surfaceFrom="top" surfaceTo="bottom" tilt="-90"/>
+    <connection from="3" to="4" surfaceFrom="top" surfaceTo="bottom" tilt="90"/>
+    <connection from="4" to="5" surfaceFrom="top" surfaceTo="bottom" tilt="-90"/>
+    <connection from="5" to="6" surfaceFrom="top" surfaceTo="bottom" tilt="90"/>
+    <connection from="6" to="7" surfaceFrom="top" surfaceTo="bottom" tilt="-90"/>
+    <connection from="7" to="8" surfaceFrom="top" surfaceTo="bottom" tilt="90"/>
+    <connection from="8" to="9" surfaceFrom="top" surfaceTo="bottom" tilt="-90"/>
+    <connection from="9" to="10" surfaceFrom="top" surfaceTo="bottom" tilt="90"/>
+    <connection from="10" to="11" surfaceFrom="top" surfaceTo="bottom" tilt="-90"/>
+    <connection from="11" to="12" surfaceFrom="top" surfaceTo="bottom" tilt="90"/>
+    <connection from="12" to="13" surfaceFrom="top" surfaceTo="bottom" tilt="-90"/>
+    <connection from="13" to="14" surfaceFrom="top" surfaceTo="bottom" tilt="90"/>
+    <connection from="14" to="15" surfaceFrom="top" surfaceTo="bottom" tilt="-90"/>
+    <connection from="15" to="16" surfaceFrom="top" surfaceTo="bottom" tilt="90"/>
+    <connection from="16" to="17" surfaceFrom="top" surfaceTo="bottom" tilt="-90"/>
+    <connection from="17" to="18" surfaceFrom="top" surfaceTo="bottom" tilt="90"/>
+    <connection from="18" to="19" surfaceFrom="top" surfaceTo="bottom" tilt="-90"/>
+  </connections>
+</robot>
